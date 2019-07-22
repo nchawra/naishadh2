@@ -1,0 +1,60 @@
+ul{
+ font-size: 40px;
+}
+body{
+    background-color: palegreen;
+}
+ul li{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 90px;
+    margin-top: 200px;
+    border: 3px solid red;
+    animation: glow 2s infinite linear;
+}
+
+@keyframes glow {
+
+      0% ,50%, 75% ,100%{
+          transform: scale(0.5,0.5);
+      }
+    25%{
+        transform: scale(7,7);
+    }
+
+}
+
+ul li:nth-child(1){
+    background-color: blue;
+    animation-delay: 0.1s;
+}
+
+ul li:nth-child(2){
+    background-color: gray;
+    animation-delay: 0.2s;
+}
+
+ul li:nth-child(3){
+    background-color: violet;
+    animation-delay: 0.3s;
+}
+ul li:nth-child(4){
+    background-color: palevioletred;
+    animation-delay: 0.4s;
+}
+ul li:nth-child(5){
+    background-color: brown;
+    animation-delay: 0.5s;
+}
+ul li:nth-child(6){
+    background-color: black;
+    animation-delay: 0.6s;
+}
+ul li:nth-child(7){
+    background-color: orange;
+    animation-delay: 0.7s;
+}
